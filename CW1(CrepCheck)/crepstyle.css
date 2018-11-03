@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'Exo 2', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Exo+2');
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
+    padding-top: 1%;
+    background-color:aliceblue;
+}
+
+
+header{
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    float:left;
+    width:350px;
+}
+
+header img{
+    padding-top:10px;
+    margin:0;
+    width:125%;
+    cursor:pointer;
+}
+
+#topright{
+    padding-top:40px;
+}
+
+nav{
+    text-align: left;
+    float:left;
+    width: 100%;
+}
+
+nav ul li {
+    display: block;
+    padding-right: 5%;
+    display: inline;
+    
+}
+
+nav ul {
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-family:'Exo 2', sans-serif;
+    color: darkgray;
+    
+}
+
+
+
+nav ul li a:hover{
+    color:black;
+}
+
+
+.navactive{
+    color:black;
+}
+
+#search input[type=text] {
+    transition: 0.5s ease; 
+    padding:0;
+    margin:0;
+    height: 40px;
+    width: 150px;
+    float: right;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    
+    font-size: 17px;
+    
+}
+#search input[type=text]:focus{
+    border-bottom-style: none;
+    width:300px;
+}
+
+#search {
+    max-width:70%;
+    float:right;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-right: 0px;
+    margin-right:1%;
+    border-radius: 60px
+    
+}
+
+
+
+
+#basket{
+    max-width:25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    float: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nikelarge {
+    width:100%;
+}
+
+
+#logobar{
+    background-color:lightgrey;
+     border-radius: 10px
+}
+#logobar ul li {
+    max-height: 10%;
+    display: inline;
+}
+
+#logobar ul li img{
+    width: 12%;
+
+}
+
+#square {
+    padding: 1%;
+    width:31.7%;
+}
+
+a {
+    cursor: pointer;
+}
+
+#leftsquare {
+    width:31.7%;
+    padding-left:0;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#rightsquare{
+    width:31.7%;
+    padding-right:0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left:1%;
+}
+
+#mentop{
+    width:100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    
+    #search input[type=text] {
+    transition: 3s ease; 
+    max-width: 150px;
+    max-width: 150px;
+    max-width: 150px;
+    }
+    
+
+    
+    nav ul li a{
+        font-size:13px
+        
+    }
+    
+    #logo{
+        width: 200px;
+    }
+}
+
+
+#items{
+    padding-top: 20px;
+    width: 100%;
+    
+}
+
+#item1{
+    text-align: center;
+    float:left;
+    background-color:white;
+    max-width:25%;
+    padding:3%;
+    border-radius: 75px;
+}
+
+#item1 img{
+    max-width:100%;    
+}
+
+#item2{
+    text-align: center;
+    float:right;
+    background-color:white;
+    max-width:25%;
+    padding:3%;
+    border-radius: 100px;
+}
+
+#item2 img{
+    max-width:100%;
+    
+}
+
+#item1 img{
+    max-width:100%;
+    
+}
+
+#item3{
+    margin-left: 3.5%;
+    text-align: center;
+    float:left;
+    background-color:white;
+    max-width:25%;
+    padding:3%;
+    border-radius: 100px;
+}
+
+#item3 img{
+    max-width:100%;
+    
+}
+
+
+
+
+
+
+.material-icons {
+    margin-left:10px;
+    margin-right:10px;
+    font-size:40px;
+    cursor:pointer;
+}
+
+.material-icons:hover {
+    color:grey;
+    background-color:aliceblue;
+}
+
+#items h3 {
+    font-family: 'Exo 2',sans-serif; 
+    
+}
+
+.Order {
+    margin-top:1%;
+    float:right;
+    
+    text-align: center;
+}
+
+
+
+.key {
+    margin-left:25%;
+    margin-top: 1%;
+    align-content: center;
+    text-align:center;
+    float:left;
+   
+  
+    border-style:solid;
+}
+
+#topb {
+    width: 100%;
+}
+
+.View {
+    margin-top:1%;
+    
+    float:left;
+    text-align: center;
+}
+
+li {
+    list-style-type:none;
+}

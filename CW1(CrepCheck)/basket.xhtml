@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+    
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"/>
+        <link rel = "stylesheet" type = "text/css" href = "crepstyle.css"/>
+        <title> Crep Check </title>
+    </head>
+    
+    <body>
+        
+        <header>
+            <div id = "logo">
+
+                <a href="index.xhtml">
+                    <img src="newlogo.png" alt="logo" />
+                </a>
+            </div>
+            <div id = "topright">
+            
+                <div id = "basket">
+                    <a href="basket.xhtml"> <i class="material-icons">shopping_cart</i> </a>
+                </div>
+            
+                <div id ="search">
+                    <input type="text" placeholder="Search.." />
+                </div>
+            </div>   
+        </header>
+    
+        
+        
+        <nav>   
+            <hr />
+            <ul>
+                <li><a href= "mens.xhtml"> MENS</a></li>     
+                <li><a href= "#"> WOMENS</a></li> 
+                <li><a href= "#"> NEW</a></li> 
+                <li><a href= "#"> BRANDS</a></li> 
+                <li><a href= "#"> ABOUT US</a></li>   
+            </ul>
+            <hr />
+        </nav>
+        
+       <img id ="topb" src = "large/basketlarge.JPG"/>
+          
+        <form class = "Order" action ="http://www2.macs.hw.ac.uk:8080/aa322/order.jsp">
+         <h2>New Order</h2>   
+         <ul>
+             <p><li> Username <input  name="UserName" size="16" required="required" placeholder="Username"/> </li></p>
+             <p><li> ProductID <input  name="productID" size="16" required="required" placeholder="Enter productID"/> </li></p>
+             <p><li> Quantity <input  name="quantity" size="16" required="required" placeholder="Enter Quantity"/> </li></p>
+             <p><li> <input type="submit" /> </li></p>
+        </ul>
+        </form> 
+        
+        <form class = "User" action ="http://www2.macs.hw.ac.uk:8080/aa322/user.jsp">
+         <h2>Create User</h2>   
+         <ul>
+             <p><li> Username <input  name="userName" size="16" required="required" placeholder="Username"/> </li></p>
+             <p><li> Name <input  name="name" size="16" required="required" placeholder="Name"/> </li></p>
+             <p><li> <input type="submit" value="Create" /> </li></p>
+        </ul>
+        </form> 
+        
+        <form class = "View" action ="http://www2.macs.hw.ac.uk:8080/aa322/pastorder.jsp">
+         <h2>View Order</h2>   
+         <ul>
+             <p><li> Username <input  name="username" size="16" required="required" placeholder="Username"/> </li></p>
+             <p><li> Name <input  name="name" size="16" required="required" placeholder="Name"/> </li></p>
+             <p><li> <input type="submit" /> </li></p>
+        </ul>
+        </form> 
+        
+        <div class = "key">
+        <h2>ORDER KEY</h2> 
+            <table>
+                <th> Key </th>
+                <th> Item </th>
+                <tr> </tr>
+                <td> 1 </td>
+                <td> Air Max 1 Jewel Pink </td>
+                <tr> </tr>
+                <td> 2 </td>
+                <td> Air Max 97 Black </td>
+                <tr> </tr>
+                <td> 3 </td>
+                <td> Air Force 1 Low </td>
+            </table>
+        </div>
+        
+    
+
+        
+        
+       
+        
+    </body>
+</html>
